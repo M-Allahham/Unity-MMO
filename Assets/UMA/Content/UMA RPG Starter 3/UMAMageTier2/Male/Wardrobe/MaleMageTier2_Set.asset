@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7341e07d1b8f41aa37f5e2c910168, type: 3}
+  m_Name: MaleMageTier2_Set
+  m_EditorClassIdentifier: 
+  recipeType: WardrobeCollection
+  DisplayValue: 
+  compatibleRaces:
+  - HumanMale
+  - HumanMaleDCS
+  wardrobeRecipeThumbs:
+  - race: HumanMale
+    filename: 
+    thumb: {fileID: 0}
+  - race: HumanMaleDCS
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: MaleMageTier2
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets: []
+  recipeString: '{"packedRecipeType":"WardrobeCollection","name":"MaleMageTier2Set","race":"","dna":[],"characterColors":[{"name":"Shirt","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Shirt
+    Accent","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Shoulder","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"wardrobeSet":[],"raceAnimatorController":""}'
+  coverImages: []
+  wardrobeCollection:
+    sets:
+    - targetRace: HumanMale
+      wardrobeSet:
+      - slot: Feet
+        recipe: MaleMageTier2Boots
+      - slot: Legs
+        recipe: MaleMageTier2Pants
+      - slot: Hands
+        recipe: MaleMageTier2Gloves
+      - slot: Chest
+        recipe: MaleMageTier2Shirt
+      - slot: Helmet
+        recipe: MaleMageTier2Hood
+      - slot: Shoulders
+        recipe: MaleMageTier2Shoulders
+    - targetRace: HumanMaleDCS
+      wardrobeSet:
+      - slot: Feet
+        recipe: MaleMageTier2Boots
+      - slot: Legs
+        recipe: MaleMageTier2Pants
+      - slot: Hands
+        recipe: MaleMageTier2Gloves
+      - slot: Chest
+        recipe: MaleMageTier2Shirt
+      - slot: Helmet
+        recipe: MaleMageTier2Hood
+  arbitraryRecipes: []

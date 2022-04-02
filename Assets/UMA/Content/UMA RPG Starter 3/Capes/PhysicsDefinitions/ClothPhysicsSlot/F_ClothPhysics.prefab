@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1828239228333390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4064161736730446}
+  - component: {fileID: 114264035684393706}
+  - component: {fileID: 114923741760358492}
+  m_Layer: 0
+  m_Name: F_ClothPhysics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4064161736730446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828239228333390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5875463, y: -1.1940097, z: -2.6011612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114264035684393706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828239228333390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b79b22c90bc7dd441899ab6522cfd2b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollLayer: 8
+  playerLayer: 9
+  simplePlayerCollider: 1
+  enableColliderTriggers: 0
+  UpdateTransformAfterRagdoll: 1
+  PhysicsElements:
+  - {fileID: 11400000, guid: d9ab07660517a5849b74cf3a5d1f1f20, type: 2}
+  - {fileID: 11400000, guid: ce6b4928423d5174aad0d6a266ff6ff8, type: 2}
+  - {fileID: 11400000, guid: d67ad004ceed05a4180259c8707b4e11, type: 2}
+  - {fileID: 11400000, guid: 047d1c04f3bc30546b8433b9e9c068f5, type: 2}
+  - {fileID: 11400000, guid: e1f04f1a9820ac946b6f4271967f3e21, type: 2}
+  - {fileID: 11400000, guid: 043375e1fc03e754ea724e6c8b52ad67, type: 2}
+  - {fileID: 11400000, guid: 2b3ea9e5ee57f6646b26e7c6943e98b6, type: 2}
+  - {fileID: 11400000, guid: ff8a3390eb2088a48b689f895086edcc, type: 2}
+  - {fileID: 11400000, guid: 0039dd0b3aab74845a13e4db01440532, type: 2}
+--- !u!114 &114923741760358492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828239228333390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c595b742f226db54486243ab8c8c5346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

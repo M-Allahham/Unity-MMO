@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7341e07d1b8f41aa37f5e2c910168, type: 3}
+  m_Name: FemaleMageTier2_Set
+  m_EditorClassIdentifier: 
+  recipeType: WardrobeCollection
+  DisplayValue: 
+  compatibleRaces:
+  - HumanFemale
+  - HumanFemaleDCS
+  wardrobeRecipeThumbs:
+  - race: HumanFemale
+    filename: 
+    thumb: {fileID: 0}
+  - race: HumanFemaleDCS
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: FemaleMageTier2
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets: []
+  recipeString: '{"packedRecipeType":"WardrobeCollection","name":"FemaleMageTier2_Set","race":"","dna":[],"characterColors":[{"name":"Shoes","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Pants","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Pants
+    Accent","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Gloves","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Shirt","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Shirt
+    Accent","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Hood","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Hood
+    Accent","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Shoulders","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"wardrobeSet":[],"raceAnimatorController":""}'
+  coverImages: []
+  wardrobeCollection:
+    sets:
+    - targetRace: HumanFemale
+      wardrobeSet:
+      - slot: Feet
+        recipe: FemaleMageTier2_Feet
+      - slot: Legs
+        recipe: FemaleMageTier2_Legs
+      - slot: Hands
+        recipe: FemaleMageTier2_Gloves
+      - slot: Chest
+        recipe: FemaleMageTier2_Torso
+      - slot: Helmet
+        recipe: FemaleMageTier2_Head
+      - slot: Shoulders
+        recipe: FemaleMageTier2_Shoulders
+    - targetRace: HumanFemaleDCS
+      wardrobeSet:
+      - slot: Feet
+        recipe: FemaleMageTier2Boots
+      - slot: Legs
+        recipe: FemaleMageTier2Pants
+      - slot: Hands
+        recipe: FemaleMageTier2Gloves
+      - slot: Chest
+        recipe: FemaleMageTier2Shirt
+      - slot: Helmet
+        recipe: FemaleMageTier2Hood
+  arbitraryRecipes: []

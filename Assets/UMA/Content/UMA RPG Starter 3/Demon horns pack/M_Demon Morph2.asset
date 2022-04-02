@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9448878e2e40f1a4c9f8fd2b56832b13, type: 3}
+  m_Name: M_Demon Morph2
+  m_EditorClassIdentifier: 
+  label: 
+  resourcesOnly: 0
+  recipeType: Standard
+  DisplayValue: 
+  compatibleRaces: []
+  wardrobeRecipeThumbs: []
+  wardrobeSlot: None
+  Hides: []
+  HideTags: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet:
+  - slot: Helmet
+    recipe: M_Small_Horns_Recipe
+  MeshHideAssets: []
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"M_Athletic_Head","scale":100,"copyIdx":-1,"overlays":[{"id":"M_Athletic_Head_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0]}]},{"id":"M_Athletic_Feet","scale":100,"copyIdx":-1,"overlays":[{"id":"M_Athletic_Body_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0]}]},{"id":"M_Athletic_Hands","scale":100,"copyIdx":1,"overlays":[]},{"id":"M_Athletic_Torso","scale":100,"copyIdx":1,"overlays":[]},{"id":"M_Athletic_Mouth","scale":100,"copyIdx":-1,"overlays":[{"id":"HumanMale2_Mouth","colorIdx":3,"rect":[0.0,0.0,0.0,0.0]}]},{"id":"M_Athletic_Eyes","scale":100,"copyIdx":-1,"overlays":[{"id":"M_Athletic
+    _Eye Inner","colorIdx":1,"rect":[0.0,0.0,0.0,0.0]},{"id":"M_Athletic _Eye Inner
+    Adjust","colorIdx":1,"rect":[0.0,0.0,0.0,0.0]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"M_Athletic_Eye
+    Outer","scale":100,"copyIdx":-1,"overlays":[{"id":"M_Athletic _Eye Outer","colorIdx":3,"rect":[0.0,0.0,0.0,0.0]}]},{"id":"M_Athletic_Legs","scale":100,"copyIdx":1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"M_Small_Horns","scale":100,"copyIdx":-1,"overlays":[{"id":"M_Small_Horns_Four_Overlay","colorIdx":3,"rect":[0.0,0.0,0.0,0.0]}]}],"colors":[],"fColors":[{"name":"Skin","colors":[206,206,206,255,190,190,190,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Eyes","colors":[31,31,31,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"Hair","colors":[55,55,55,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":3,"race":"HumanMale2
+    Athletic Race","packedDna":[{"dnaType":"DynamicUMADna","dnaTypeHash":815443803,"packedDna":"{\"bDnaAsset\":{\"instanceID\":30138},\"bDnaAssetName\":\"HumanMaleDynamicDnaAsset\",\"bDnaSettings\":[{\"name\":\"skinGreenness\",\"value\":128},{\"name\":\"skinBlueness\",\"value\":128},{\"name\":\"skinRedness\",\"value\":128},{\"name\":\"height\",\"value\":128},{\"name\":\"headSize\",\"value\":128},{\"name\":\"headWidth\",\"value\":255},{\"name\":\"neckThickness\",\"value\":152},{\"name\":\"armLength\",\"value\":156},{\"name\":\"forearmLength\",\"value\":128},{\"name\":\"armWidth\",\"value\":164},{\"name\":\"forearmWidth\",\"value\":128},{\"name\":\"handsSize\",\"value\":128},{\"name\":\"feetSize\",\"value\":128},{\"name\":\"legSeparation\",\"value\":128},{\"name\":\"upperMuscle\",\"value\":168},{\"name\":\"lowerMuscle\",\"value\":128},{\"name\":\"upperWeight\",\"value\":102},{\"name\":\"lowerWeight\",\"value\":128},{\"name\":\"legsSize\",\"value\":128},{\"name\":\"belly\",\"value\":128},{\"name\":\"waist\",\"value\":128},{\"name\":\"gluteusSize\",\"value\":39},{\"name\":\"earsSize\",\"value\":135},{\"name\":\"earsPosition\",\"value\":77},{\"name\":\"earsRotation\",\"value\":52},{\"name\":\"noseSize\",\"value\":29},{\"name\":\"noseCurve\",\"value\":188},{\"name\":\"noseWidth\",\"value\":2},{\"name\":\"noseInclination\",\"value\":224},{\"name\":\"nosePosition\",\"value\":110},{\"name\":\"nosePronounced\",\"value\":128},{\"name\":\"noseFlatten\",\"value\":74},{\"name\":\"chinSize\",\"value\":0},{\"name\":\"chinPronounced\",\"value\":255},{\"name\":\"chinPosition\",\"value\":0},{\"name\":\"mandibleSize\",\"value\":128},{\"name\":\"jawsSize\",\"value\":31},{\"name\":\"jawsPosition\",\"value\":184},{\"name\":\"cheekSize\",\"value\":156},{\"name\":\"cheekPosition\",\"value\":132},{\"name\":\"lowCheekPronounced\",\"value\":84},{\"name\":\"lowCheekPosition\",\"value\":123},{\"name\":\"foreheadSize\",\"value\":71},{\"name\":\"foreheadPosition\",\"value\":197},{\"name\":\"lipsSize\",\"value\":128},{\"name\":\"mouthSize\",\"value\":217},{\"name\":\"eyeRotation\",\"value\":0},{\"name\":\"eyeSize\",\"value\":11},{\"name\":\"breastSize\",\"value\":118},{\"name\":\"eyeSpacing\",\"value\":255}]}"}],"wardrobeSet":[{"slot":"Helmet","recipe":"M_Small_Horns_Recipe"}],"packedRecipeType":"Standard"}'
