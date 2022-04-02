@@ -1,0 +1,33 @@
+QOL CHANGES
+------------------
+Smoother combat (Mimic live action through calculating direction at time of attack, allow attacks to go through without a target (miss))
+- For ranged, if entity is not at a certain (parabolic) threshold from cursor, instantiate a target at the correct threshold and set target to that for the targetprojectileskill
+- For melee, just make the code feel a bit better to play with, maybe tighten up the window for the casttime.
+- Also for melee, allow cast even if no target, just let target be null but have animation and cooldown go through (better skill expression)
+
+Fix camera during freelook
+Smoother control scheme (modify camera positioning primarily, rotation with q and e keys)
+
+Give enemies a hitbox so you cant run through them during tab targeting
+
+APPEARANCE CHANGES
+----------------------
+Clean up color selection tool for hair color
+Create color selection tool for other body parts (lips, eyes, etc)
+Clean up UI
+Find better item icons for inventory management
+Fix textures rendering too dark on armor pieces
+
+GAMEPLAY CHANGES
+----------------------
+Rework spells
+Create more quests
+Create more areas
+Create more enemies
+Modify combat to be live action
+Modify critical strike damage
+Add in more modifiable attributes
+
+SYSTEM CHANGES
+----------------------
+Design beginner area
