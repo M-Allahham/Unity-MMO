@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7341e07d1b8f41aa37f5e2c910168, type: 3}
+  m_Name: F_Bandit
+  m_EditorClassIdentifier: 
+  recipeType: WardrobeCollection
+  DisplayValue: 
+  compatibleRaces:
+  - HumanFemale
+  - HumanFemaleDCS
+  wardrobeRecipeThumbs:
+  - race: HumanFemale
+    filename: 
+    thumb: {fileID: 0}
+  - race: HumanFemaleDCS
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: BanditArmor
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  recipeString: '{"packedRecipeType":"WardrobeCollection","name":"F_Bandit","race":"","dna":[],"characterColors":[],"wardrobeSet":[],"raceAnimatorController":""}'
+  coverImages: []
+  wardrobeCollection:
+    sets:
+    - targetRace: HumanFemale
+      wardrobeSet:
+      - slot: Helmet
+        recipe: F_Bandit 1 Helmet
+      - slot: Shoulders
+        recipe: F_Bandit 1 Shoulders
+      - slot: Chest
+        recipe: F_Bandit 1 Upper
+      - slot: Hands
+        recipe: F_Bandit 1 Gloves
+      - slot: Legs
+        recipe: F_Bandit 1 Lower
+      - slot: Feet
+        recipe: F_Bandit 1 Boots
+    - targetRace: HumanFemaleDCS
+      wardrobeSet: []
+  arbitraryRecipes: []

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7341e07d1b8f41aa37f5e2c910168, type: 3}
+  m_Name: M_Northern Leather
+  m_EditorClassIdentifier: 
+  recipeType: WardrobeCollection
+  DisplayValue: 
+  compatibleRaces:
+  - HumanMale
+  - HumanMaleDCS
+  wardrobeRecipeThumbs:
+  - race: HumanMale
+    filename: 
+    thumb: {fileID: 0}
+  - race: HumanMaleDCS
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: NorthernLeather
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  recipeString: '{"packedRecipeType":"WardrobeCollection","name":"M_Northern Leather","race":"","dna":[],"characterColors":[],"wardrobeSet":[],"raceAnimatorController":""}'
+  coverImages: []
+  wardrobeCollection:
+    sets:
+    - targetRace: HumanMale
+      wardrobeSet:
+      - slot: Helmet
+        recipe: M_Northern Leather Helmet
+      - slot: Shoulders
+        recipe: M_Northern Leather Shoulders
+      - slot: Chest
+        recipe: M_Northern Leather Upper
+      - slot: Hands
+        recipe: M_Northern Leather Gloves
+      - slot: Legs
+        recipe: M_Northern Leather Lower
+      - slot: Feet
+        recipe: M_Northern Leather Boots
+    - targetRace: HumanMaleDCS
+      wardrobeSet: []
+  arbitraryRecipes: []

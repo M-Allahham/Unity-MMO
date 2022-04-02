@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ae7341e07d1b8f41aa37f5e2c910168, type: 3}
+  m_Name: F_Demon Armor
+  m_EditorClassIdentifier: 
+  recipeType: WardrobeCollection
+  DisplayValue: 
+  compatibleRaces:
+  - HumanFemale
+  - HumanFemaleDCS
+  wardrobeRecipeThumbs:
+  - race: HumanFemale
+    filename: 
+    thumb: {fileID: 0}
+  - race: HumanFemaleDCS
+    filename: 
+    thumb: {fileID: 0}
+  wardrobeSlot: DemonArmor
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  recipeString: '{"packedRecipeType":"WardrobeCollection","name":"F_Demon Armor","race":"","dna":[],"characterColors":[],"wardrobeSet":[],"raceAnimatorController":""}'
+  coverImages: []
+  wardrobeCollection:
+    sets:
+    - targetRace: HumanFemale
+      wardrobeSet:
+      - slot: Helmet
+        recipe: F_Demon Armor Helmet
+      - slot: Chest
+        recipe: F_Demon Armor Upper
+      - slot: Shoulders
+        recipe: F_Demon Armor Shoulders
+      - slot: Hands
+        recipe: F_Demon Armor Gloves
+      - slot: Legs
+        recipe: F_Demon Armor Lower
+      - slot: Feet
+        recipe: F_Demon Armor Boots
+    - targetRace: HumanFemaleDCS
+      wardrobeSet: []
+  arbitraryRecipes: []
