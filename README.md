@@ -2,4 +2,9 @@
 
 ## Requirements
 - Unity
-- UMA 2.0
+## Features
+- Server/Client in a single build, server code not run on client
+- Mirror based networking
+- UMA for incredibly flexible character creation
+- Registration, login, and character creation
+- SQLite database system, can be swapped for mySQL
